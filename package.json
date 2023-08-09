@@ -28,7 +28,8 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "discord.js": "^14.7.1",
+    "discord-html-transcripts": "^3.1.5",
+    "discord.js": "^14.12.1",
     "dotenv": "^16.0.3",
     "envsafe": "^2.0.3"
   }

@@ -6,4 +6,10 @@ export const env = envsafe({
   GUILD_ID: str(),
   GUILD_ICON: url(),
   CHANNEL_ID: str(),
+  MESSAGE_ID: str({
+    allowEmpty: true,
+  }),
+  THUMBNAIL_ICON: url(),
+  CATEGORY_ID: str(),
+  ADMIN_ID: str(),
 });
